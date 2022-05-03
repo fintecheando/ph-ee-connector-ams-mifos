@@ -9,6 +9,9 @@ camel:
 dfspids: "DFSPID"
 
 zeebe:
+  client:
+    broker:
+      contactPoint: "zeebe:26500"
   broker:
     contactpoint: "zeebe:26500"
 
